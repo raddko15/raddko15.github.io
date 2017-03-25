@@ -72,42 +72,7 @@ $(document).ready(function(){
 		tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
 	});
 	
-	
-	
-	
-	function buttonSlider(){
-	var divHeight = $('.sliderImage').height();
-	$("#picContainer").css('height',divHeight);
-	
-	} buttonSlider();
-	
-	
-	
-	$('#takeMeDownH1')
-		.mouseenter(function(){
-		$('.projectDiv').css('background-color', 'rgba(8,52,50,0.8)');
-	})
-	  .mouseleave(function(){
-	   $('.projectDiv').css('background-color', 'rgba(8,52,50,0.9)');
-	});
-	
-		$('.cv')
-		.mouseenter(function(){
-		$('.cv').addClass('cvActive');
-	})
-	  .mouseleave(function(){
-	   $('.cv').removeClass('cvActive');
-	});
-	
-	
-});
-$(window).load(function() {
-		var divHeight = $('.sliderImage').height();
-	   var divHeight2 = $('#takeMeDownH1').height();
-		$(".projectDiv").css('height',divHeight+divHeight2+200);
-	
-	
-	   function slider() {
+	 function slider() {
 //		$('')
 		var currentIndex = 0;
 		var items = $('#picContainer img');
@@ -183,6 +148,41 @@ $(window).load(function() {
 	
 	slider();
 	    
+	
+	
+	function buttonSlider(){
+	var divHeight = $('.sliderImage').height();
+	$("#picContainer").css('height',divHeight);
+	
+	} buttonSlider();
+	
+	
+	
+	$('#takeMeDownH1')
+		.mouseenter(function(){
+		$('.projectDiv').css('background-color', 'rgba(8,52,50,0.8)');
+	})
+	  .mouseleave(function(){
+	   $('.projectDiv').css('background-color', 'rgba(8,52,50,0.9)');
+	});
+	
+		$('.cv')
+		.mouseenter(function(){
+		$('.cv').addClass('cvActive');
+	})
+	  .mouseleave(function(){
+	   $('.cv').removeClass('cvActive');
+	});
+	
+	
+});
+$(window).load(function() {
+		var divHeight = $('.sliderImage').height();
+	   var divHeight2 = $('#takeMeDownH1').height();
+		$(".projectDiv").css('height',divHeight+divHeight2+200);
+	
+	
+	  
 	
 });
 $(window).resize(function(){
