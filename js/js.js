@@ -15,8 +15,6 @@ $(document).ready(function(){
   $(".nowa").slideDown('slow','swing');
 	
  
-	
-	
 	var dictionary, set_lang;
 	var tabAbout = ["Strona dotycząca znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
 	var tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];

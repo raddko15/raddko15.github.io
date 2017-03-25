@@ -201,14 +201,11 @@ i.fa {
 	cursor: pointer;
 	font-size: 36px;
 	font-weight: bold;
-	
 }
 .projectPic{
 	margin-top:30px;
 	text-align: center;
    position: relative;
-	
-	
 }
 .projectPic img {
 	width:100%;
@@ -217,7 +214,6 @@ i.fa {
 	right:0px;
 	z-index: 1;
 	border: solid 2px white;
-	
 }
 
 .projectPic img:nth-child(n+2){
@@ -225,8 +221,6 @@ i.fa {
 }
 
 #picContainer {
-	background-color: grey;
-	
 	width:600px;
 	height:450px;
 }
