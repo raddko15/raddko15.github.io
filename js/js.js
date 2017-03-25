@@ -176,21 +176,19 @@ $(document).ready(function(){
 	
 	
 });
-$(window).load(function() {
-	 
-	   
-		var divHeight = $('.sliderImage').height();
+
+
+$(window).on("load", function() {
+    // weave your magic here.
+	var divHeight = $('.sliderImage').height();
 		var divWidth = $('.sliderImage').width();
 	   
-		$(".picContainer").css('width',divWidth);
+		$(".picContainer").css('height',divWidth);
 	   $(".picContainer").css('height',divHeight);
 	   var divHeight2 = $('#takeMeDownH1').height();
 		$(".projectDiv").css('height',divHeight+divHeight2+200);
-	
-	
-	  
-	
 });
+
 $(window).resize(function(){
 	var divHeight = $('.sliderImage').height();
 	var divHeight2 = $('#takeMeDownH1').height();
