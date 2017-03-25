@@ -13,7 +13,12 @@ $(document).ready(function(){
    });
   $(".nowa").slideDown('slow','swing');
 	
-
+function containerH(){
+		var divHeight = $('.sliderImage').height();
+	   var divHeight2 = $('#takeMeDownH1').height();
+		$(".projectDiv").css('height',divHeight+divHeight2+200);
+	}
+	containerH();
 	
 	var dictionary, set_lang;
 	var tabAbout = ["Strona dotycząca znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
@@ -153,12 +158,7 @@ $(document).ready(function(){
 	
 	} buttonSlider();
 	
-	function containerH(){
-		var divHeight = $('.sliderImage').height();
-	   var divHeight2 = $('#takeMeDownH1').height();
-		$(".projectDiv").css('height',divHeight+divHeight2+200);
-	}
-	containerH();
+	
 	
 	$('#takeMeDownH1')
 		.mouseenter(function(){
