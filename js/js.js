@@ -177,7 +177,13 @@ $(document).ready(function(){
 	
 });
 $(window).load(function() {
+	 
+	   
 		var divHeight = $('.sliderImage').height();
+		var divWidth = $('.sliderImage').width();
+	   
+		$(".picContainer").width() = divWidth;
+	   $(".picContainer").height() = divHeight;
 	   var divHeight2 = $('#takeMeDownH1').height();
 		$(".projectDiv").css('height',divHeight+divHeight2+200);
 	
