@@ -1,14 +1,6 @@
 
 		 
-$(window).load(function() {
-      function containerH(){
-		var divHeight = $('.sliderImage').height();
-	   var divHeight2 = $('#takeMeDownH1').height();
-		$(".projectDiv").css('height',divHeight+divHeight2+200);
-	    }
-	
-	containerH();
-});
+
 
 $(document).ready(function(){
     function animateScrollButton() { //	animation of items for scrolling
@@ -185,6 +177,11 @@ $(document).ready(function(){
 	});
 	
 	
+});
+$(window).load(function() {
+	var divHeight = $('.sliderImage').height();
+	var divHeight2 = $('#takeMeDownH1').height();
+	$(".projectDiv").css('height',divHeight+divHeight2+200);
 });
 $(window).resize(function(){
 	var divHeight = $('.sliderImage').height();
