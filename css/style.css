@@ -7,7 +7,7 @@ body {
   background: -moz-linear-gradient(left, #bc9a64 1%, #e9d4b3 48%, #f3e2c7 59%, #e9d4b3 93%, #e9d4b3 93%); 
   background: -webkit-linear-gradient(left, #bc9a64 1%,#e9d4b3 48%,#f3e2c7 59%,#e9d4b3 93%,#e9d4b3 93%); 
   background: linear-gradient(to right, #bc9a64 1%,#e9d4b3 48%,#f3e2c7 59%,#e9d4b3 93%,#e9d4b3 93%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc9a64', endColorstr='#e9d4b3',GradientType=1 ); 
+ 
   color: white;
   background: url("../img/15.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
