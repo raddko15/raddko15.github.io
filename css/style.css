@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding 0;
+}
+body {
+  color: white;
+  background: url("../img/15.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: 'Play', sans-serif;
+	color:white;
+	height: 100%;
+}
+a, a:hover {
+	text-decoration: none;
+	
+}
+.flags{
+	position:absolute;
+	width:40px;
+	height:40px;
+	z-index:10;
+	top:10px;
+}
+.flags:hover {
+	cursor:pointer;
+	opacity: 0.9;
+}
+.flags:first-child{
+	display:none;
+}
+
+.division {
+ height: 70vh;
+ min-height: 670px;
+}
+.aboutMe {
+  color:white;
+}
+.projscroll:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.pencil {
+ 	width:25px;
+	height:50px;
+	cursor:pointer;
+	margin-top:5px;
+	position:absolute;
+}
+.wrapper {
+	width:97.8%;
+	
+}
+.wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+.paperDiv{
+ 	padding-top: 15px;
+ 	height:450px;
+	background-color:rgba(8,52,50,0.9);
+ 	box-shadow: 7px 7px 7px #000000;
+ 	border-radius: 10px 10px 10px 10px;
+ 	margin-top:40px;
+	font-size:18px;
+}
+.nowa {
+	display:none;
+}
+.noteWrapper{
+	margin-top:140px;	
+}
+.quote-container {	
+   position: relative;
+}
+
+.note {
+  color: #333;
+  position: relative;
+  min-width:250px;
+  min-height:  250px;
+  padding: 15px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;   
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+  margin-left:auto;
+  margin-right:auto;
+  max-width:400px;
+	display: block;
+}
+
+.yellow {
+  background: #eae672;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+.red {
+  text-align:center;
+  background: rgb(125, 166, 151);
+	
+}
+.cv {
+	color:black;
+}
+.cvActive {
+	color:#A31;
+	cursor:pointer;
+}
+.cvDiv:hover {
+	display:block;
+	color:#A31;
+}
+.blue
+{
+  background: #eae692;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+.note:hover {
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  position:relative;
+  font-weight:bold;
+  
+}
+.note img {
+	width:100px;
+	height:151px;
+	border: solid 2px white;
+	margin-top:30px;
+}
+
+.dot{
+	text-align: center;
+	font-size:32px;
+	color:red;
+	font-family:arial;
+}
+
+.pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  z-index: 1;
+}
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+i.fa {
+	padding: 20px;
+}
+.scrollUp{
+	
+	width:75px;
+	height:75px;
+	background-image:url("../img/up.png");
+	position:fixed;
+	right:0.5%;
+	bottom:50px;
+	z-index: 10;
+	opacity: 0.9;
+	display: none;
+	
+}
+.scrollUp:hover{
+	cursor:pointer;
+	opacity:1;
+}
+.projectDiv {
+	background-color:rgba(8,52,50,0.9);
+	height:100%;
+	min-height: 100%;
+	
+}
+#takeMeDownH1:hover{
+	cursor: pointer;
+	font-size: 36px;
+	font-weight: bold;
+	
+}
+.projectPic{
+	margin-top:30px;
+	text-align: center;
+   position: relative;
+	
+	
+}
+.projectPic img {
+	width:100%;
+	height:auto;
+	position:absolute;
+	right:0px;
+	z-index: 1;
+	border: solid 2px white;
+}
+
+.projectPic img:nth-child(n+2){
+	display:none;
+}
+
+ .cosik
+	display:block;
+}
+
+.projectPic:hover {
+	cursor:pointer;
+}
+.button {
+	position:absolute;
+	top:45%;
+	z-index: 2;
+}
+.button:hover {
+	cursor:pointer;
+}
+.next{
+	right:5px;
+}
+.prev{
+	left:5px;
+}
+.siteDesc{
+	height: 50px;
+	margin-top:20px;
+	position: static;
+	text-align: center;
+}
+
+@media only screen and (max-width : 480px) {
+	.pencil {
+		right:46%;
+	}
+	.noteWrapper {
+		margin-top:130px;
+	}
+	.paperDiv {
+		margin-top:30px;
+		height:570px;
+	}
+	.button {
+		top:35%;	
+	}
+	.scrollUp {
+		rigth:5px;
+		bottom:5px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.projectDiv {
+		margin-top:270px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.scrollUp {
+		right:1.5%;
+	}
+	.siteDesc {
+		margin-top:40px;
+	}
+}
