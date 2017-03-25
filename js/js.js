@@ -1,3 +1,11 @@
+function containerH(){
+		var divHeight = $('.sliderImage').height();
+	   var divHeight2 = $('#takeMeDownH1').height();
+		$(".projectDiv").css('height',divHeight+divHeight2+200);
+	    }
+		 containerH();
+
+
 $(document).ready(function(){
     function animateScrollButton() { //	animation of items for scrolling
 		 $('.pencil').animate({'margin-top':'5px'},1000).animate({'margin-top':'35px'},1000, animateScrollButton);
@@ -13,7 +21,7 @@ $(document).ready(function(){
    });
   $(".nowa").slideDown('slow','swing');
 	
-
+ 
 	
 	
 	var dictionary, set_lang;
