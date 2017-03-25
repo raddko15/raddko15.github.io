@@ -217,11 +217,13 @@ i.fa {
 	right:0px;
 	z-index: 1;
 	border: solid 2px white;
+	display: none;
 }
 
 .projectPic img:nth-child(n+2){
 	display:none;
 }
+.picContainer img {display:none;}
 
  .cosik
 	display:block;
