@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding 0;
+  background-color: #bc9a64; 
 }
 body {
-  background-color: #bc9a64; 
+  
   color: white;
   background: url("../img/15.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
