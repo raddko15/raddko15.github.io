@@ -1,10 +1,14 @@
-function containerH(){
+
+		 
+$(window).load(function() {
+      function containerH(){
 		var divHeight = $('.sliderImage').height();
 	   var divHeight2 = $('#takeMeDownH1').height();
 		$(".projectDiv").css('height',divHeight+divHeight2+200);
 	    }
-		 containerH();
-
+	
+	containerH();
+});
 
 $(document).ready(function(){
     function animateScrollButton() { //	animation of items for scrolling
