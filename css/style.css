@@ -4,7 +4,7 @@
 }
 body {
   color: white;
-  background: #bc9a64 url("../img/15.jpg") no-repeat center center fixed; 
+  background: #000 url("../img/15.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
