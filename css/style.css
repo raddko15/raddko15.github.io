@@ -198,9 +198,7 @@ a, a:hover {
 	height:100%;
 	min-height: 100%;
 }
-#takeMeDownH1{
-	padding-top: 5px;
-}
+
 #takeMeDownH1:hover{
 	cursor: pointer;
 	font-size: 36px;
@@ -287,4 +285,10 @@ a, a:hover {
 	.siteDesc {
 		margin-top:40px;
 	}
+}
+@media only screen and (width: 1368px) and (height: 768px) {
+	.division {
+ 
+ min-height: 640px;
+}
 }
