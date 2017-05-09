@@ -30,7 +30,7 @@ $(document).ready(function(){
 			   "_contact":"Contact:",
 			   "_phone":"Phone: +48 669 801 635",
 			   "_projects":"Projects",
-						"_aboutPage":"Subpage for Ecorail-Garden - Braille Products",
+						"_aboutPage":"My projects",
 						"_aboutPageTech":""
 			   
         },
@@ -63,8 +63,11 @@ $(document).ready(function(){
 		$('#polFlag').fadeIn('fast');
 		tabAbout = ["Subpage for Ecorail-Garden - Braille Products", "Simple Quiz in Javascript","Website made for a client", "Website made for educational purposes", "Project in development"];
 	   tabTech = ["Technologies: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologies: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologies: HTML, CSS, JQuery", "Technologies: HTML, CSS, JS, Bootstrap, Inkscape (The logo of a Bird, and simple graphics)"];
+		
+
 		 
 	});
+	
 	$('#polFlag').click(function(){
 		
 		set_lang(dictionary.polish);
@@ -72,6 +75,7 @@ $(document).ready(function(){
 		$('#engFlag').fadeIn('fast');
 		tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
 		tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
+
 	});
 	
 	 function slider() {
