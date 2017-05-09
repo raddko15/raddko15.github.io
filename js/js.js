@@ -16,20 +16,22 @@ $(document).ready(function(){
 	
  
 	var dictionary, set_lang;
-	var tabAbout = ["Strona dotycząca znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
-	var tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
+	var tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
+	var tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
 	
 	
 	 dictionary = {
-        "english": {
-            "_shortDescription": "My name is Radosław Furmański, I am 23 years old and I live in Krakow. In March I finished my IT studies at University of Technology and Science. Currently I am looking for an internship or work as Junior Front-End Developer",
-            "_lookAtportfolio": "Visit my portfolio!",
+      "english": {
+      "_shortDescription": "My name is Radosław Furmański, I am 23 years old and I live in Krakow. In March I finished my IT studies at University of Technology and Science. Currently I am looking for an internship or work as Junior Front-End Developer",
+      "_lookAtportfolio": "Visit my portfolio!",
 			   "_skills":"Skills:",
 			   "_basics":"Basics: MySQL, PHP, React",
 			   "_downloadCv":"Download Cv (pdf version)",
 			   "_contact":"Contact:",
 			   "_phone":"Phone: +48 669 801 635",
 			   "_projects":"Projects",
+						"_aboutPage":"Subpage for Ecorail-Garden - Braille Products",
+						"_aboutPageTech":""
 			   
         },
 		 "polish": {
@@ -40,8 +42,9 @@ $(document).ready(function(){
 			  "_downloadCv":"Pobierz Cv w wersji pdf",
 			  "_contact":"Kontakt:",
 			  "_phone":"Telefon: 669 801 635",
-			  "_projects":"Projekty"
-			 
+			  "_projects":"Projekty",
+			 	"_aboutPage":"Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a",
+					"_aboutPageTech":"Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop"
 		 }
 	 };
 	set_lang = function (dictionary) {
@@ -58,16 +61,17 @@ $(document).ready(function(){
 		set_lang(dictionary.english);
 		$('#engFlag').fadeOut('fast');
 		$('#polFlag').fadeIn('fast');
-		tabAbout = ["Website made for a client", "Website made for educational purposes", "Project in development"];
-	   tabTech = ["Technologies: HTML, CSS, JS, JQuery, Technologies: Bootstrap, Photoshop",  "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (The logo of a Bird, and simple graphics)"];
+		tabAbout = ["Subpage for Ecorail-Garden - Braille Products", "Simple Quiz in Javascript","Website made for a client", "Website made for educational purposes", "Project in development"];
+	   tabTech = ["Technologies: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologies: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologies: HTML, CSS, JQuery", "Technologies: HTML, CSS, JS, Bootstrap, Inkscape (The logo of a Bird, and simple graphics)"];
+		 
 	});
 	$('#polFlag').click(function(){
 		
 		set_lang(dictionary.polish);
 		$('#polFlag').fadeOut('fast');
 		$('#engFlag').fadeIn('fast');
-		tabAbout = ["Strona dotycząca znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
-		tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
+		tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
+		tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
 	});
 	
 	 function slider() {

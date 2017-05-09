@@ -143,15 +143,12 @@ a, a:hover {
 .note img {
 	width:100px;
 	height:151px;
-	border: solid 2px white;
+	border: solid 1px white;
 	margin-top:40px;
 }
 
 .dot{
-	text-align: center;
-	font-size:32px;
-	color:red;
-	font-family:arial;
+bottom:10px;
 }
 
 .pin {
@@ -235,7 +232,7 @@ a, a:hover {
 }
 .button {
 	position:absolute;
-	top:45%;
+	top:50%;
 	z-index: 2;
 }
 .button:hover {
@@ -265,9 +262,12 @@ a, a:hover {
 		margin-top:30px;
 		height:570px;
 	}
+	.dot {bottom:0px;}
+/*
 	.button {
 		top:35%;	
 	}
+*/
 	.scrollUp {
 		rigth:5px;
 		bottom:5px;
