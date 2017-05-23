@@ -16,7 +16,7 @@ $(document).ready(function(){
 	
  
 	var dictionary, set_lang;
-	var tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
+	var tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta. Oparta na szablonie + poprawki", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
 	var tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
 	
 	
@@ -73,7 +73,7 @@ $(document).ready(function(){
 		set_lang(dictionary.polish);
 		$('#polFlag').fadeOut('fast');
 		$('#engFlag').fadeIn('fast');
-		tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta.", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
+		tabAbout = ["Podstrona dla firmy Ecorail-Garden - Tabliczki Braille'a","Quiz w Javascripcie","Strona dotyczy znaków kolejowych, wykonana na zlecenie klienta. Oparta na szablonie + poprawki", "Strona wykonana w celach edukacyjnych.", "Projekt, nad którym obecnie pracuję."];
 		tabTech = ["Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop","HTML, CSS, JS, JSON","Technologie: HTML, CSS, JS, JQuery, Bootstrap, Photoshop", "Technologie: HTML, CSS, JQuery", "Technologie: HTML, CSS, JS, Bootstrap, Inkscape (Logo ptaka, oprawa wizualna)"];
 
 	});
